@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Student Report Table</title>
+    
+    <style>
+        
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+            text-align: center;
+        }
+
+        th {
+            color: white;
+        }
+
+        table#t01 th {
+            background-color: red;
+        }
+
+        table#t01 tr:nth-child(even) {
+            background-color: silver;
+        }
+
+        table#t01 tr:nth-child(odd) {
+            background-color: aqua;
+        }
+
+    </style>
+    
+</head>
+
+<body>
+
+	<table style="width: 100%;" id="t01">
+	<caption> STUDENTS REPORT</caption>
+		
+		<!--Table Headings-->
+		<tr>
+			<th>Firstname</th>
+			<th>Lastname</th>
+			<th>Grade</th>
+		</tr>
+
+		<!--First Row of Table-->
+		<tr>
+			<td>Steve</td>
+			<td>Vai</td>
+			<td>80</td>
+		</tr>
+
+		<!--Second Row of Table-->
+		<tr>
+			<td>Keith</td>
+			<td>Richards</td>
+			<td>60</td>
+		</tr>
+
+		<!--Third Row of Table-->
+		<tr>
+			<td>Joe</td>
+			<td>Satriani</td>
+			<td>65</td>
+		</tr>
+
+		<!--Fourth Row of Table-->
+		<tr>
+			<td>Carlos</td>
+			<td>Santana</td>
+			<td>75</td>
+		</tr>
+
+		<!--Table Footer-->
+		<tr style="background-color: red; color: white;">
+			<td colspan="2">Average</td>
+			<td>70</td>
+		</tr>
+
+	</table>
+
+</body>
+</html>
